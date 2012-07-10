@@ -15,15 +15,15 @@ B需要定期访问A电脑上的服务。
 
 1. 在B电脑上运行 remember-my-ip 服务
 
-    * windows用过通过下载运行 service.exe 即可
-    * \*nix用户通过Ruby脚本执行 service.rb
+    windows用过通过下载运行 service.exe 即可
+    \*nix用户通过Ruby脚本执行 service.rb
 
 2. 每当A电脑IP发生变化，比如重启或者网络重启，从A电脑上访问一下
 
         http://<ip-B>:4567/save/as/<a-hostname>
 
-    * 其中 `a-hostname` 是 B 访问 A 时所使用的名称
-    * 在浏览器中或curl方式访问都可以
+    其中 `a-hostname` 是 B 访问 A 时所使用的名称
+    在浏览器中或curl方式访问都可以
 
 此时，B电脑的hosts文件中增加了一条这样的记录：
 
