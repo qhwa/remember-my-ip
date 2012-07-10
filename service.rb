@@ -36,7 +36,7 @@ def save_ip( ip, name )
 end
 
 def hosts_file
-  RUBY_PLATFORM =~ /windows/ ? 
+  RUBY_PLATFORM =~ /w(in)?32/ ? 
     'C:/WINDOWS/system32/drivers/etc/hosts' : 
     '/etc/hosts'
 end
