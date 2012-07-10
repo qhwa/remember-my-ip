@@ -41,6 +41,6 @@ def hosts_file
     '/etc/hosts'
 end
 
-unless ARGV.include? "run"
+if ARGV.include? "disable-run"
   disable :run
 end
