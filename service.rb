@@ -41,4 +41,4 @@ def hosts_file
     '/etc/hosts'
 end
 
-disable :run if defined? OCRA
+disable :run if defined? Ocra
