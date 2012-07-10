@@ -42,7 +42,7 @@ bug提交和功能需求
 
 fork 然后发 pull request 回来
 
-编译方式: 使用 [ocra](http://ocra.rubyforge.org/) 编译
+Windows平台编译方式: 使用 [ocra](http://ocra.rubyforge.org/) 编译
 
     ocra service.rb
 
