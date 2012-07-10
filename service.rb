@@ -40,3 +40,5 @@ def hosts_file
     'C:/WINDOWS/system32/drivers/etc/hosts' : 
     '/etc/hosts'
 end
+
+disable :run if defined? OCRA
