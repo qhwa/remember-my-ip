@@ -1,4 +1,8 @@
 remember-my-ip
 ==============
 
-save one computer's IP address to another
+将一台电脑的动态ip记录到另一台电脑.
+
+TODO:
+
+添加文档
